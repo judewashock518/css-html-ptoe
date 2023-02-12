@@ -1,5 +1,6 @@
 #container {
     width:auto;
+    margin-left:1rem;
     margin-top:3rem;
 }
 
@@ -31,11 +32,16 @@
     top: 300px;
 }
 
+.atomic-number {
+    position:relative;
+    margin-top:0.5rem;
+    font-size:1.5rem;
+}
 
 .symbol {
     position:relative;
     text-align:center;
-    margin-top: 1.5rem;
+    margin-top: 0.3rem;
     font-size:3rem;
 }
 
@@ -50,8 +56,6 @@
 .atomic-mass {
     margin-top:2rem;
 }
-
-
 
 
 .flip-card {
