@@ -3,6 +3,7 @@
     width:auto;
     margin-left:1rem;
     margin-top:3rem;
+    margin-right:1rem;
 }
 
 #panel-one {
@@ -37,25 +38,30 @@
     position:relative;
     margin-top:0.5rem;
     font-size:1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .symbol {
     position:relative;
     text-align:center;
     margin-top: 0.3rem;
-    font-size:3rem;
+    font-size:2.8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .element-name {
     position:relative;
     text-align:center;
     margin-top: 1.5rem;
-    font-size:1.0rem;
+    font-size:0.8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 .atomic-mass {
     margin-top:2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:0.8rem;
 }
 
 
@@ -113,8 +119,8 @@
 }
 
 .flip-card-back-reactive-nonmetals {
-    background-color:slategray;
-    color:white;
+    background-color:rgb(110, 110, 110);
+    color:rgb(228, 227, 227);
     transform: rotateY(180deg);
 }
 
@@ -124,8 +130,8 @@
 }
 
 .flip-card-back-alkali-metals {
-    background-color:slategray;
-    color:white;
+    background-color:rgb(110, 110, 110);
+    color:rgb(228, 227, 227);
     transform: rotateY(180deg);
 }
 
@@ -135,8 +141,8 @@
 }
 
 .flip-card-back-alkaline-earth-metals {
-    background-color:slategray;
-    color:white;
+    background-color:rgb(110, 110, 110);
+    color:rgb(228, 227, 227);
     transform: rotateY(180deg);
 }
 
@@ -146,8 +152,8 @@
 }
 
 .flip-card-back-transition-metals {
-    background-color:slategray;
-    color:white;
+    background-color:rgb(110, 110, 110);
+    color:rgb(228, 227, 227);
     transform: rotateY(180deg);
 }
 
@@ -157,8 +163,8 @@
 }
 
 .flip-card-back-lanthanides {
-    background-color:slategray;
-    color:white;
+    background-color:rgb(110, 110, 110);
+    color:rgb(228, 227, 227);
     transform: rotateY(180deg);
 }
 
@@ -168,8 +174,8 @@
 }
 
 .flip-card-back-actinides {
-    background-color:slategray;
-    color:white;
+    background-color:rgb(110, 110, 110);
+    color:rgb(228, 227, 227);
     transform: rotateY(180deg);
 }
 
@@ -179,8 +185,8 @@
 }
 
 .flip-card-back-unknown-properties {
-    background-color:slategray;
-    color:white;
+    background-color:rgb(110, 110, 110);
+    color:rgb(228, 227, 227);
     transform: rotateY(180deg);
 }
 
@@ -190,8 +196,8 @@
 }
 
 .flip-card-back-metalloids {
-    background-color:slategray;
-    color:white;
+    background-color:rgb(110, 110, 110);
+    color:rgb(228, 227, 227);
     transform: rotateY(180deg);
 }
 
@@ -201,8 +207,8 @@
 }
 
 .flip-card-back-posttransition-metals {
-    background-color:slategray;
-    color:white;
+    background-color:rgb(110, 110, 110);
+    color:rgb(228, 227, 227);
     transform: rotateY(180deg);
 }
 
@@ -212,8 +218,8 @@
 }
 
 .flip-card-back-noble-gases {
-    background-color:slategray;
-    color:white;
+    background-color:rgb(110, 110, 110);
+    color:rgb(228, 227, 227);
     transform: rotateY(180deg);
 }
 
