@@ -118,21 +118,9 @@
     color:black;
 }
 
-.flip-card-back-reactive-nonmetals {
-    background-color:rgb(110, 110, 110);
-    color:rgb(228, 227, 227);
-    transform: rotateY(180deg);
-}
-
 .flip-card-front-alkali-metals {
     background-color:rgb(179, 110, 214);
     color: black;
-}
-
-.flip-card-back-alkali-metals {
-    background-color:rgb(110, 110, 110);
-    color:rgb(228, 227, 227);
-    transform: rotateY(180deg);
 }
 
 .flip-card-front-alkaline-earth-metals {
@@ -140,21 +128,9 @@
     color:black;
 }
 
-.flip-card-back-alkaline-earth-metals {
-    background-color:rgb(110, 110, 110);
-    color:rgb(228, 227, 227);
-    transform: rotateY(180deg);
-}
-
 .flip-card-front-transition-metals {
     background-color:rgb(11, 137, 165);
     color:black;
-}
-
-.flip-card-back-transition-metals {
-    background-color:rgb(110, 110, 110);
-    color:rgb(228, 227, 227);
-    transform: rotateY(180deg);
 }
 
 .flip-card-front-lanthanides {
@@ -162,21 +138,9 @@
     color:black;
 }
 
-.flip-card-back-lanthanides {
-    background-color:rgb(110, 110, 110);
-    color:rgb(228, 227, 227);
-    transform: rotateY(180deg);
-}
-
 .flip-card-front-actinides {
     background-color:rgb(223, 160, 144);
     color:black;
-}
-
-.flip-card-back-actinides {
-    background-color:rgb(110, 110, 110);
-    color:rgb(228, 227, 227);
-    transform: rotateY(180deg);
 }
 
 .flip-card-front-unknown-properties {
@@ -184,21 +148,9 @@
     color:black;
 }
 
-.flip-card-back-unknown-properties {
-    background-color:rgb(110, 110, 110);
-    color:rgb(228, 227, 227);
-    transform: rotateY(180deg);
-}
-
 .flip-card-front-metalloids {
     background-color:rgb(201, 64, 171);
     color:black;
-}
-
-.flip-card-back-metalloids {
-    background-color:rgb(110, 110, 110);
-    color:rgb(228, 227, 227);
-    transform: rotateY(180deg);
 }
 
 .flip-card-front-posttransition-metals {
@@ -206,17 +158,20 @@
     color:black;
 }
 
-.flip-card-back-posttransition-metals {
-    background-color:rgb(110, 110, 110);
-    color:rgb(228, 227, 227);
-    transform: rotateY(180deg);
-}
-
 .flip-card-front-noble-gases {
     background-color:rgb(217, 111, 92);
     color:black;
 }
 
+.flip-card-back-reactive-nonmetals,
+.flip-card-back-alkali-metals,
+.flip-card-back-alkaline-earth-metals,
+.flip-card-back-transition-metals,
+.flip-card-back-lanthanides,
+.flip-card-back-actinides,
+.flip-card-back-unknown-properties,
+.flip-card-back-metalloids,
+.flip-card-back-posttransition-metals,
 .flip-card-back-noble-gases {
     background-color:rgb(110, 110, 110);
     color:rgb(228, 227, 227);
