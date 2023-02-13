@@ -1,8 +1,29 @@
+header {
+    color: rgb(228, 227, 227);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:1rem;
+    font-size:4rem;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left:20rem;
+    margin-top:5rem;
+  }
+  
+  td {
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(228, 227, 227);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(228, 227, 227);
+    text-align:center;
+}
 
 #container {
     width:auto;
     margin-left:1rem;
-    margin-top:2rem;
+    margin-top:0rem;
     margin-right:1rem;
 }
 
