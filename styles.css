@@ -7,7 +7,7 @@ header {
 
 table {
     border-radius:0.5rem;
-    margin-left:20rem;
+    margin-left:23rem;
     margin-top:5rem;
   }
   
@@ -23,7 +23,7 @@ table {
 
 #container {
     width:auto;
-    margin-left:1rem;
+    margin-left:5rem;
     margin-top:0rem;
     margin-right:1rem;
 }
@@ -74,16 +74,21 @@ table {
 .element-name {
     position:relative;
     text-align:center;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     font-size:0.8rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 .atomic-mass {
-    margin-top:2rem;
+    margin-top:1.2rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size:0.8rem;
+}
+
+.btn-white {
+    height: 50px;
+    width: 80px;
 }
 
 
@@ -108,29 +113,29 @@ table {
 }
 
 .flip-card-front-reactive-nonmetals,
-.flip-card-back-reactive-nonmetals,
 .flip-card-front-alkali-metals,
-.flip-card-back-alkali-metals,
 .flip-card-front-alkaline-earth-metals,
-.flip-card-back-alkaline-earth-metals,
 .flip-card-front-transition-metals,
-.flip-card-back-transition-metals,
 .flip-card-front-lanthanides,
-.flip-card-back-lanthanides,
 .flip-card-front-actinides,
-.flip-card-back-actinides,
 .flip-card-front-unknown-properties,
-.flip-card-back-unknown-properties,
 .flip-card-front-metalloids,
-.flip-card-back-metalloids,
 .flip-card-front-posttransition-metals,
-.flip-card-back-posttransition-metals,
 .flip-card-front-noble-gases,
+.flip-card-back-reactive-nonmetals,
+.flip-card-back-alkali-metals,
+.flip-card-back-alkaline-earth-metals,
+.flip-card-back-transition-metals,
+.flip-card-back-lanthanides,
+.flip-card-back-actinides,
+.flip-card-back-unknown-properties,
+.flip-card-back-metalloids,
+.flip-card-back-posttransition-metals,
 .flip-card-back-noble-gases {
     position:absolute;
     width:100%;
     height:100%;
-    -webkit-backface-visibility: hidden;
+    /* -webkit-backface-visibility: hidden; */
     backface-visibility: hidden;
     border-radius: 16px;
 }
@@ -198,5 +203,10 @@ table {
     background-color:rgb(110, 110, 110);
     color:rgb(228, 227, 227);
     transform: rotateY(180deg);
+    transform-origin: center top;
+    width: 180%;
+    height:180%;
+    bottom: 100%;
+    left: -2%;
 }
 
