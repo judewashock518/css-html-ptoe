@@ -25,7 +25,7 @@ table {
     width:auto;
     margin-left:5rem;
     margin-top:0rem;
-    margin-right:1rem;
+    margin-right:2rem;
 }
 
 #panel-one {
@@ -200,7 +200,7 @@ table {
 .flip-card-back-metalloids,
 .flip-card-back-posttransition-metals,
 .flip-card-back-noble-gases {
-    background-color:rgb(110, 110, 110);
+    background-color:rgb(124, 122, 122);
     color:rgb(228, 227, 227);
     transform: rotateY(180deg);
     transform-origin: center top;
