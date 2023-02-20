@@ -1,14 +1,36 @@
-header {
+.navbar {
+    overflow: hidden;
+    background-color: rgb(11, 11, 11);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+    float: right;
+    font-size: 16px;
     color: rgb(228, 227, 227);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-left:1rem;
-    font-size:4rem;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.navbar a:hover{
+    background-color: rgb(50, 117, 91);
+}
+
+.ptoe {
+    color: rgb(228, 227, 227);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:5rem;
+    font-size:2rem;
 }
 
 table {
     border-radius:0.5rem;
     margin-left:23rem;
-    margin-top:5rem;
+    margin-top:2rem;
   }
   
   td {
@@ -112,7 +134,8 @@ table {
     transform: rotateY(180deg);
 }
 
-.flip-card-front-reactive-nonmetals,
+.flip-card-front-diatomic-nonmetals,
+.flip-card-front-polyatomic-nonmetals,
 .flip-card-front-alkali-metals,
 .flip-card-front-alkaline-earth-metals,
 .flip-card-front-transition-metals,
@@ -122,7 +145,8 @@ table {
 .flip-card-front-metalloids,
 .flip-card-front-posttransition-metals,
 .flip-card-front-noble-gases,
-.flip-card-back-reactive-nonmetals,
+.flip-card-back-diatomic-nonmetals,
+.flip-card-back-polyatomic-nonmetals,
 .flip-card-back-alkali-metals,
 .flip-card-back-alkaline-earth-metals,
 .flip-card-back-transition-metals,
@@ -140,8 +164,13 @@ table {
     border-radius: 16px;
 }
 
-.flip-card-front-reactive-nonmetals {
+.flip-card-front-diatomic-nonmetals {
     background-color:rgb(114, 231, 235);
+    color:black;
+}
+
+.flip-card-front-polyatomic-nonmetals {
+    background-color:rgb(206, 228, 83);
     color:black;
 }
 
@@ -190,7 +219,8 @@ table {
     color:black;
 }
 
-.flip-card-back-reactive-nonmetals,
+.flip-card-back-diatomic-nonmetals,
+.flip-card-back-polyatomic-nonmetals,
 .flip-card-back-alkali-metals,
 .flip-card-back-alkaline-earth-metals,
 .flip-card-back-transition-metals,
