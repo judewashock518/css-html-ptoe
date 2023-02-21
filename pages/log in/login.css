@@ -91,3 +91,31 @@ button:hover{
 #chk:checked ~ .signup label{
 	transform: scale(.6);
 }
+
+.teacher-question {
+	font-size:1rem;
+	color:rgb(21, 21, 21);
+}
+
+.yes {
+	font-size:1rem;
+	color:rgb(21, 21, 21);
+}
+
+.no {
+	font-size:1rem;
+	color:rgb(21, 21, 21);
+}
+
+.question-container {
+	position: relative;
+}
+
+/* .question-container {
+	display: flex;
+	align-items: center;
+} */
+  
+.question-container input[type="radio"] {
+	margin-right: 5px;
+}

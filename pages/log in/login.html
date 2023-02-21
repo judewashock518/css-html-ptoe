@@ -8,9 +8,17 @@
     <title>Log In/Register</title>
 </head>
 <body>
+	<div class="question-container">
+		<label class = "teacher-question">* Are you a Teacher?</label>
+		<label class="yes">
+		  <input type="radio" name="choice-radio" required="" />Yes
+		</label>
+		<label class ="no">
+		  <input type="radio" name="choice-radio" required="" />No
+		</label>
+	</div>
     <div class="main">  	
 		<input type="checkbox" id="chk" aria-hidden="true">
-
 			<div class="signup">
 				<form>
 					<label for="chk" aria-hidden="true">Sign up</label>
@@ -20,7 +28,6 @@
 					<button>Sign up</button>
 				</form>
 			</div>
-
 			<div class="login">
 				<form>
 					<label for="chk" aria-hidden="true">Login</label>
